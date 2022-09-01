@@ -14,7 +14,7 @@
     <h1>Hello, world!</h1>
     <div class="mb-3 w-50">
       <input type="email" class="form-control" id="search-field" placeholder="Search Your Phone">
-      <div id="btn-search"  class="btn btn-primary">Search</div>
+      <div id="btn-search" class="btn btn-primary">Search</div>
     </div>
   </header>
 
@@ -37,6 +37,25 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="phoneDetailModal" tabindex="-1" aria-labelledby="phoneDetailModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="phoneDetailModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="phone-details" class="modal-body">
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
 
